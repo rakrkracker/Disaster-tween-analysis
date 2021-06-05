@@ -49,3 +49,8 @@ The data was fet into a random forest classifier.It reached a validation accurac
 
 ## BiLSTM model
 This model uses a single layer of budirectional LSTM units, followed by global average pooling of the sequence and a dense classification head. Batch normalization and dropout layers were added throughout for stability.
+![model architecture](https://github.com/rakrkracker/disaster-tweet-analysis/blob/master/images/rnn_model.png)
+
+## Training
+The model was trained in batches of size 64 and for a maximum of 100 epochs (a callback was added to stop training if nothing new was learned for multiple epochs). The training stopped after 39 epochs. The model reached an overall accuracy of about 80.6% (validation) and 80.4% (training), which indicated a good fit, without under- or overfitting. With an overall accuracy of 80.4%, this model shows improvement over the random forest one.
+![learning curves](https://github.com/rakrkracker/disaster-tweet-analysis/blob/master/images/learning%20curves.png)
