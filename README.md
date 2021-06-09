@@ -45,7 +45,7 @@ A token distribution analysis shows that nearly 70% of tweets with locations are
 The data was put through an embedding process based on the Word2vec algorithm. It was then split into training / validation sets with a ratio of 0.8 (6,090 training and 1,523 validation).
 
 ## Random Forest model
-The data was fet into a random forest classifier.It reached a validation accuracy of 78.46%.
+The data was fet into a random forest classifier. It reached a validation accuracy of 78.46%.
 
 ## BiLSTM model
 This model uses a single layer of budirectional LSTM units, followed by global average pooling of the sequence and a dense classification head. Batch normalization and dropout layers were added throughout for stability.<br/>
