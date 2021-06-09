@@ -35,7 +35,7 @@ In addition, low frequency words (less than 10 in the entire dataset) were remov
 An average length analysis shows that disaster tweets tend to be shorter - less words, less characters and smaller word length.<br/>
 ![length analysis](https://github.com/rakrkracker/disaster-tweet-analysis/blob/master/images/analysis1.png)
 
-A token frequency analysis shows that disaster tweets tend to have less links special words (links, hashtags, emoticons, ect.)<br/>
+A token frequency analysis shows that disaster tweets tend to have less "special" words (links, hashtags, emoticons, ect.)<br/>
 ![frequency analysis](https://github.com/rakrkracker/disaster-tweet-analysis/blob/master/images/analysis2.png)
 
 A token distribution analysis shows that nearly 70% of tweets with locations are not disaster related. It also shows that more than 80% of tweets with emoticons are not disaster related. The rest of the special words are evenly distributed.<br/>
