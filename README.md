@@ -29,7 +29,7 @@ The data was taken from 10,000 tweets that were cand classified as associated wi
 Is was created by the company figure-eight and originally shared on their [‘Data For Everyone’ website here.](https://appen.com/open-source-datasets/)
 
 ## Data Exploration
-For this analysis only the text of the tweets was used.
+For this analysis, only the text of the tweets was used.
 For uniformity, the text was lower-cased and lemmatized. In order to approach strings that are not words, a token was used for the most common categories: urls (http and https), hashtags (#), ats (@) and emoticons (:-)). All other non-lettered words and stop words were removed.
 In addition, low frequency words (less than 10 in the entire dataset) were removed.
 An average length analysis shows that disaster tweets tend to be shorter - less words, less characters and smaller word length.<br/>
